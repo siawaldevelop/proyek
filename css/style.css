@@ -1,11 +1,8 @@
 @font-face {
-    font-family: PassionsConflict;
-    src: url(../fonts/Passions_Conflict/PassionsConflict-Regular.ttf);
+    font-family: Cookie;
+    src: url(../fonts/Cookie/Cookie-Regular.ttf);
 }
-@font-face {
-    font-family: Satisfy;
-    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
-}
+
 
 
 .hero{
@@ -26,9 +23,9 @@
     margin-top: 15%;
 }
 .text-center h1{
-    font-family: 'Satisfy';
+    font-family: 'Cookie';
     
-    font-size: 45px;
+    font-size: 60px;
 }
 
 form input[type= "text"] {
