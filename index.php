@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Form</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
@@ -25,7 +25,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">MASUKKAN NAMA LENGKAP UNTUK MEMBUKA UNDANGAN!</h1>
                                     </div>
-                                    <form action="welcome.php" method="post">
+                                    <form action="core/welcome.php" method="post">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user" id="exampleInputText" name="nama" placeholder="Nama Lengkap">
                                         </div>
